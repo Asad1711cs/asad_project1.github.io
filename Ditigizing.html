@@ -1,0 +1,1695 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="description" content="Glax">
+<meta name="author" content="Marketify">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>ZAZ Digitilizing</title>
+
+<link rel="stylesheet" type="text/css" href="css/fontello.css">
+<link rel="stylesheet" type="text/css" href="css/skeleton.css">
+<link rel="stylesheet" type="text/css" href="css/plugins.css">
+<link rel="stylesheet" type="text/css" href="css/base.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link href="../../css.css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+<link href="../../css-1.css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+<link href="../../css-2.css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900" rel="stylesheet">
+<!--[if lt IE 9]> <script type="text/javascript" src="js/modernizr.custom.js"></script> <![endif]-->
+
+
+
+
+
+<!--For Portfolio-->
+
+
+<style>
+
+
+
+.shell{
+  padding:80px 0;
+}
+.wsk-cp-product{
+  background:#fff;
+  padding:15px;
+  border-radius:6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  position:relative;
+  margin:20px auto;
+}
+.wsk-cp-img{
+  position:absolute;
+  top:5px;
+  left:50%;
+  transform:translate(-50%);
+  -webkit-transform:translate(-50%);
+  -ms-transform:translate(-50%);
+  -moz-transform:translate(-50%);
+  -o-transform:translate(-50%);
+  -khtml-transform:translate(-50%);
+  width: 100%;
+  padding: 15px;
+  transition: all 0.2s ease-in-out;
+}
+.wsk-cp-img img{
+  width:100%;
+  transition: all 0.2s ease-in-out;
+  border-radius:6px;
+}
+.wsk-cp-product:hover .wsk-cp-img{
+  top:-40px;
+}
+.wsk-cp-product:hover .wsk-cp-img img{
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+.wsk-cp-text{
+  padding-top:150%;
+}
+.wsk-cp-text .category{
+  text-align:center;
+  font-size:12px;
+  font-weight:bold;
+  padding:5px;
+  margin-bottom:45px;
+  position:relative;
+  transition: all 0.2s ease-in-out;
+}
+.wsk-cp-text .category > *{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+  -khtml-transform: translate(-50%,-50%);
+    
+}
+.wsk-cp-text .category > span{
+  padding: 12px 30px;
+  border: 1px solid #ad3110;
+  background:#ad3110;
+  color:#fff;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  border-radius:27px;
+  transition: all 0.05s ease-in-out;
+  
+}
+.wsk-cp-product:hover .wsk-cp-text .category > span{
+  border-color:#ddd;
+  box-shadow: none;
+  padding: 11px 28px;
+}
+.wsk-cp-product:hover .wsk-cp-text .category{
+  margin-top: 0px;
+}
+.wsk-cp-text .title-product{
+  text-align:center;
+}
+.wsk-cp-text .title-product h3{
+  font-size:20px;
+  font-weight:bold;
+  margin:15px auto;
+  overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  width:100%;
+}
+.wsk-cp-text .description-prod p{
+  margin:0;
+}
+/* Truncate */
+.wsk-cp-text .description-prod {
+  text-align:center;
+  width: 100%;
+  height:62px;
+  overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+  margin-bottom:15px;
+}
+.card-footer{
+  padding: 25px 0 5px;
+  border-top: 1px solid #ddd;
+}
+.card-footer:after, .card-footer:before{
+  content:'';
+  display:table;
+}
+.card-footer:after{
+  clear:both;
+}
+
+.card-footer .wcf-left{
+  float:left;
+  
+}
+
+.card-footer .wcf-right{
+  float:right;
+}
+
+.price{
+  font-size:18px;
+  font-weight:bold;
+}
+
+a.buy-btn{
+  display:block;
+  color:#212121;
+  text-align:center;
+  font-size: 18px;
+  width:35px;
+  height:35px;
+  line-height:35px;
+  border-radius:50%;
+  border:1px solid #212121;
+  transition: all 0.2s ease-in-out;
+}
+a.buy-btn:hover , a.buy-btn:active, a.buy-btn:focus{
+  border-color: #FF9800;
+  background: #FF9800;
+  color: #fff;
+  text-decoration:none;
+}
+.wsk-btn{
+  display:inline-block;
+  color:#212121;
+  text-align:center;
+  font-size: 18px;
+  transition: all 0.2s ease-in-out;
+  border-color: #FF9800;
+  background: #FF9800;
+  padding:12px 30px;
+  border-radius:27px;
+  margin: 0 5px;
+}
+.wsk-btn:hover, .wsk-btn:focus, .wsk-btn:active{
+  text-decoration:none;
+  color:#fff;
+}  
+.red{
+  color:#F44336;
+  font-size:22px;
+  display:inline-block;
+  margin: 0 5px;
+}
+@media screen and (max-width: 991px) {
+  .wsk-cp-product{
+    margin:40px auto;
+  }
+  .wsk-cp-product .wsk-cp-img{
+  top:-40px;
+}
+.wsk-cp-product .wsk-cp-img img{
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+  .wsk-cp-product .wsk-cp-text .category > span{
+  border-color:#ddd;
+  box-shadow: none;
+  padding: 11px 28px;
+}
+.wsk-cp-product .wsk-cp-text .category{
+  margin-top: 0px;
+}
+a.buy-btn{
+  border-color: #FF9800;
+  background: #FF9800;
+  color: #fff;
+}
+}
+
+/*for product rows*/
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/*end*/
+
+</style>
+
+
+
+</head>
+<body>
+
+
+  <div >
+    <div style="background-color: black; color: white; " class="d flex justify-content-center">
+            <marquee  width="100%" direction="left" class="pre-header">
+                Flat discount 30% OFF on all Christmas and New Year logo / vector work and patches work for all customers.
+            </marquee>
+        </div>        </div>
+<div class="glax_tm_wrapper_all">
+
+
+
+    <div class="glax_tm_border_wrap">
+    <div class="border top"></div>
+    <div class="border left"></div>
+    <div class="border right"></div>
+    </div>
+    
+    
+    <div class="glax_tm_holder_wrap">
+    <div class="holder left"></div>
+    <div class="holder right"></div>
+    </div>
+    
+    
+    <div class="glax_tm_topbar_wrap">
+    <div class="container">
+    <div class="inner_wrap">
+    <div class="left_part_wrap">
+    <div class="share_wrap">
+    <ul>
+    
+        
+    <li><a href="https://www.facebook.com/zazdigitizing"><i class="xcon-facebook"></i></a></li>
+    <li><a href="https://www.linkedin.com/company/zazdigitizing"><i class="xcon-linkedin"></i></a></li>
+    <li><a href="https://www.instagram.com/zazdigitizing/"><i class="xcon-instagram"></i></a></li>
+    
+    </ul>
+    </div>
+    
+    <div class="language">
+     
+<form action="qoute.html">
+	<a href="qoute.html"  style="margin-left:50px; margin-top:0px;  background-color: #ad3110; border:none; color:#FFF; padding: 15px 32px; text-align: center; display: inline-block; font-size: 16px;"> Get Free Quote </a>
+	</form> </div>
+    </div>
+    <div class="right_part_wrap">
+    <ul>
+    <li data-style="home">
+    <a href="#"><img class="svg" src="img/svg/home.svg" alt=""></a>
+    </li>
+    <li data-style="message">
+    <a href="#"><img class="svg" src="img/svg/message2.svg" alt=""></a>
+    </li>
+    <li data-style="phone">
+    <a href="#"><img class="svg" src="img/svg/old_phone.svg" alt=""></a>
+    </li>
+    
+    </ul>
+    </div>
+    </div>
+    </div>
+    </div>
+    
+    <div class="wrapper_all_inner_wrap">
+    
+    <div class="glax_tm_header_wrap" data-style="light" data-position="relative">
+    <div class="container">
+    <div class="header_inner_wrap">
+    <div class="menu_wrap">     <ul>
+    
+        <li class="shape">
+            <a href="#">PORTFOLIO</a>
+            <div class="submenu_wrap">
+            <ul>
+            <li><a href="Ditigizing.html">DIGITIZING</a></li>
+            <li><a href="Vector.html">VECTOR</a></li>
+            <li><a href="Patches.html">PATCHES</a></li>
+        
+            </ul>
+            </div>
+            </li>
+            <li class="shape">
+              <a href="#">Services</a>
+              <div class="submenu_wrap">
+              <ul>
+              <li><a href="service-embroidery.html">EMBROIDERY SERVICES</a></li>
+              <li><a href="service-vector.html">VECTOR SERVICES</a></li>
+              <li><a href="service-patches.html">PATCHES SERVICES</a></li>
+              <li><a href="StockLetter.html">STOCK LETTERS</a></li>
+          
+              </ul>
+              </div>
+              </li>
+               
+                <li>
+                <a href="fileformats.html">FILE FORMATS</a>
+                
+                </li>
+                <li>
+                    <a href="discounts-page.html">DISCOUNT OFFERS</a>
+                    
+                    </li>
+                    <li>
+                      <a href="contact.html">CONTACT US</a>
+                      
+                      </li>
+                  
+            
+        </ul>
+    </div>
+    <div class="purchase_button">
+    </div>
+    
+    <div class="logo_wrap">
+    <img src="img/desktop-logo.png" alt="">
+    <span class="left"></span>
+    <span class="right"></span>
+    <span class="extra_first"></span>
+    <span class="extra_second"></span>
+    <a class="full_link" href="index.html"></a>
+    </div>
+    </div>
+    </div>
+    </div>
+    
+    
+    
+    <div class="glax_tm_mobile_bar_wrap">
+    <div class="mobile_topbar_wrap">
+    <div class="container">
+    <div class="inner_wrap">
+    <div class="short_info_wrap">
+    <ul>
+    <li data-type="home"><a href="#"><img class="svg" src="img/svg/home.svg" alt=""></a></li>
+    <li data-type="message"><a href="#"><img class="svg" src="img/svg/message2.svg" alt=""></a></li>
+    <li data-type="phone"><a href="#"><img class="svg" src="img/svg/old-phone.svg" alt=""></a></li>
+    </ul>
+    </div>
+    <div class="mobile_socials_wrap">
+    <ul>
+      <li><a href="https://www.facebook.com/zazdigitizing"><i class="xcon-facebook"></i></a></li>
+            <li><a href="https://www.linkedin.com/company/zazdigitizing"><i class="xcon-linkedin"></i></a></li>
+            <li><a href="https://www.instagram.com/zazdigitizing/"><i class="xcon-instagram"></i></a></li>
+        
+    </ul>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="mobile_header_wrap">
+    <div class="container">
+    <div class="inner_wrap">
+    <div class="logo_wrap">
+    <a href="index.html"><img src="img/mobile-logo.png" alt=""></a>
+    </div>
+    <div class="trigger_wrap">
+    <div class="hamburger hamburger--collapse-r">
+    <div class="hamburger-box">
+    <div class="hamburger-inner"></div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <div class="menu_list_wrap">
+      <ul class="nav">
+     
+        <li>
+            <a href="#">Portfolio</a>
+            <ul class="sub_menu">
+            <li><a href="Ditigizing.html">Digitizing</a></li>
+            <li><a href="Vector.html">Vector</a></li>
+            <li><a href="Patches.html">Patches</a></li>
+          
+          </ul>
+          </li>
+    
+          <li class="shape">
+            <a href="#">Services</a>
+           
+            <ul class="sub_menu">
+            <li><a href="service-embroidery.html">EMBROIDERY SERVICES</a></li>
+            <li><a href="service-vector.html">VECTOR SERVICES</a></li>
+            <li><a href="service-patches.html">PATCHES SERVICES</a></li>
+            <li><a href="StockLetter.html">STOCK LETTERS</a></li>
+        
+            </ul>
+            
+            </li>
+    
+        </li>
+        
+        <li>
+        <a href="fileformats.html">FILE FORMATS</a>
+        
+        </li>
+        <li>
+            <a href="discounts-page.html">DISCOUNT OFFERS</a>
+            
+            </li>
+        
+            
+        <li><a href="contact.html">CONTACT US</a></li>
+            
+        <li><a href="about.html">ABOUT US</a></li>
+              
+        <li><a href="qoute.html">Get Free Qoute</a></li>
+        
+    
+      </ul>
+      </div>
+    
+    <div class="glax_tm_dropdown_wrap">
+    <div class="container">
+    <div class="drop_list home">
+    <div class="adress_wrap">
+    <div class="office_image">
+    <img src="img/contact/1.jpg" alt="">
+    </div>
+    <div class="definitions_wrap">
+        <h3>Our Office in United-Kingdom</h3>
+        <p>UK Office: 246-250 Romford Road, London E7 9HZ, UNITED KINGDOM</p>
+    <p>Phone:  +44 115 888 2201</p>
+    <p><span>Email:</span><a href="#"><span class="__cf_email__" data-cfemail="d3a4fdb0bcbda0a7a1a6b0a7bab5aa93b4beb2babffdb0bcbe">[email&#160;protected]</span></a></p>
+    </div>
+    </div>
+    </div>
+    <div class="drop_list message">
+    <div class="short_contact">
+    <h3 class="title">Request a Quote</h3>
+    <p class="subtitle">Looking for a quality and affordable builder for your next project?</p>
+    <div class="inputs_wrap">
+    <form action="/" method="post">
+    <div class="input_list_wrap">
+    <ul>
+    <li>
+    <input type="text" placeholder="Your Name">
+    </li>
+    <li>
+    <input type="text" placeholder="E-mail Address">
+    </li>
+    <li>
+    <input type="text" placeholder="Main Subject">
+    </li>
+    </ul>
+    </div>
+    <textarea placeholder="Message"></textarea>
+    <div class="button">
+    <a href="#">Send Message</a>
+    </div>
+    </form>
+    </div>
+    </div>
+    </div>
+    <div class="drop_list phone">
+    <div class="call_wrap">
+    <div class="image">
+    <img src="img/estimate/call.png" alt="">
+    </div>
+    <h3>Contact Us</h3>
+    <p> +44 115 888 2201</p>
+    </div>
+    </div>
+    <div class="drop_list clock">
+    <div class="working_hours_wrap_short">
+    <h3>Working Hours</h3>
+    <p class="subtitle">We are happy to meet you during our working hours. Please make an appointment.</p>
+    <div class="hour_list">
+    <ul>
+    <li>
+    <span class="left">Monday-Friday:</span>
+    <span class="right">9am to 5pm</span>
+    </li>
+    <li>
+    <span class="left">Saturday:</span>
+    <span class="right">10am to 3pm</span>
+    </li>
+    <li>
+    <span class="left">Sunday:</span>
+    <span class="right">Closed</span>
+    </li>
+    </ul>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    
+    </div>
+    
+    
+    <div class="glax_tm_widget_wrap">
+    <div class="widget_inner_wrap">
+    <div class="widget_icons_wrap">
+    <ul>
+    <li class="home" data-style="home">
+    <a href="#"><img class="svg" src="img/svg/home.svg" alt=""></a>
+    </li>
+    <li class="message" data-style="message">
+    <a href="#"><img class="svg" src="img/svg/message2.svg" alt=""></a>
+    </li>
+    <li class="phone" data-style="phone">
+    <a href="#"><img class="svg" src="img/svg/old_phone.svg" alt=""></a>
+    </li>
+    
+    </ul>
+    </div>
+    
+    
+    
+    
+    <div class="widget_dropdown_wrap">
+    <div class="drop_list home">
+    <div class="adress_wrap">
+    <div class="office_image">
+    <img src="img/contact/1.jpg" alt="">
+    </div>
+    <div class="definitions_wrap">
+    <h3>Our Office in United-Kingdom</h3>
+    <p>UK Office: 246-250 Romford Road, London E7 9HZ, UNITED KINGDOM</p>
+    <p>Phone: +44 115 888 2201</p>
+    <p><p><span>Email:</span><a href="mailto:info@zazdigitizing.com">Send email info@zazdigitizing.com</span></a></p>
+    <p><span>Email:</span><a href="mailto:order@zazdigitizing.com">Send email order@zazdigitizing.com</span></a></p></p>
+    </div>
+    </div>
+    </div>
+    <div class="drop_list message">
+    <div class="short_contact">
+    <h3 class="title">Request a Quote</h3>
+    <p class="subtitle">Looking for a quality and affordable builder for your next project?</p>
+    <div class="inputs_wrap">
+    <form action="/" method="post">
+    <div class="input_list_wrap">
+    <ul>
+    <li>
+    <input type="text" placeholder="Your Name">
+    </li>
+    <li>
+    <input type="text" placeholder="E-mail Address">
+    </li>
+    <li>
+    <input type="text" placeholder="Main Subject">
+    </li>
+    </ul>
+    </div>
+    <textarea placeholder="Message"></textarea>
+    <div class="button">
+    <a href="#">Send Message</a>
+    </div>
+    </form>
+    </div>
+    </div>
+    </div>
+    <div class="drop_list phone">
+    <div class="call_wrap">
+    <div class="image">
+    <img src="img/estimate/call.png" alt="">
+    </div>
+    <h3>Toll Free</h3>
+    <p>+44 115 888 2201</p>
+    </div>
+    </div>
+    
+    </div>
+    
+    </div>
+    </div>
+    
+    
+    <div class="glax_tm_widget_window_overlay"></div>
+    
+    
+    
+    <div class="glax_tm_widget_window_overlay"></div>
+    <div class="glax_tm_section">
+        <div class="glax_tm_main_title_holder">
+            <div class="container">
+                <div class="title_holder">
+                    <h3>Portfolio</h3>
+                </div>
+                <div class="builify_tm_breadcrumbs">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li class="shape"><span></span></li>
+                        <li><span>Portfolio</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+<div class="glax_tm_section">
+<div class="container">
+<div class="glax_tm_projects_wrap">
+
+
+
+
+<div class="glax_tm_section">
+  <li class="architecture">
+  <div class="container">
+  <div class="glax_tm_home_service_list">
+<h1 style="text-align:center;">Digitizing</h1>
+  <ul class="glax_tm_miniboxes">
+
+  <li>
+  <div class="inner_list glax_tm_minibox">
+  <div class="icon_wrap">
+  <img style="width: 250px; height:250px;" class="img" src="img/portfolio/b.jpg" alt="">
+  </div>
+  <div class="title_holder">
+  <h6>
+    B
+    </h6>
+  </div>
+  <div class="description">
+  <p>
+   Port-0033 </p>
+  </div>
+  <div class="glax_tm_button_more_wrap">
+    <a href="#">
+      Get Free Qoute
+        <span class="arrow_wrap">
+        <span class="first"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+        <span class="second"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+        </span>
+        </a>
+  </div>
+  <a class="service_link" href=" "></a>
+  </div>
+  </li>
+  <li>
+  <div class="inner_list glax_tm_minibox">
+  <div class="icon_wrap">
+  <img style="width: 250px; height:250px;" class="img" src="img/portfolio/021.jpg" alt="">
+  </div>
+  <div class="title_holder">
+  <h6>
+    Begen County Police New Jersey</h6>
+  </div>
+  <div class="description">
+  <p>Port-0021</p>
+  </div>
+  <div class="glax_tm_button_more_wrap">
+    <a href="#">
+      Get Free Qoute
+        <span class="arrow_wrap">
+        <span class="first"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+        <span class="second"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+        </span>
+        </a>
+  </div>
+  <a class="service_link" href=" "></a>
+  </div>
+  </li>
+  <li>
+  <div class="inner_list glax_tm_minibox">
+  <div class="icon_wrap">
+  <img style="width: 250px; height:250px;" class="img" src="img/portfolio/9.jpg" alt="">
+  </div>
+
+
+  <div class="title_holder">
+      <h6>Bird</h6>
+      </div>
+      <div class="description">
+      <p>Port-0017</p>
+      </div>
+      <div class="glax_tm_button_more_wrap">
+        <a href="#">
+          Get Free Qoute
+            <span class="arrow_wrap">
+            <span class="first"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+            <span class="second"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+            </span>
+            </a>
+      </div>
+      <a class="service_link" href=" "></a>
+      </div>
+      </li>
+      <li>
+      <div class="inner_list glax_tm_minibox">
+      <div class="icon_wrap">
+      <img class="img" src="img/portfolio/15.jpg" alt="">
+      </div>
+
+      
+  <div class="title_holder">
+  <h6>
+    Charter Competence Communication</h6>
+  </div>
+  <div class="description">
+  <p>Port-0022
+  </p>
+  </div>
+  <div class="glax_tm_button_more_wrap">
+    <a href="#">
+      Get Free Qoute
+        <span class="arrow_wrap">
+        <span class="first"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+        <span class="second"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+        </span>
+        </a>
+  </div>
+  <a class="service_link" href=" "></a>
+  </div>
+  </li>
+
+
+
+  </ul>
+
+
+
+
+  <ul class="glax_tm_miniboxes">
+
+    <li>
+    <div class="inner_list glax_tm_minibox">
+    <div class="icon_wrap">
+    <img class="img" style="width: 250px; height:250px;" src="img/portfolio/11.jpg" alt="">
+    </div>
+    <div class="title_holder">
+    <h6>
+      DIGS Marouette Michigan</h6>
+    </div>
+    <div class="description">
+    <p>Port-0009
+        </p>
+    </div>
+    <div class="glax_tm_button_more_wrap">
+     <a href="#">
+Get Free Qoute
+  <span class="arrow_wrap">
+  <span class="first"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+  <span class="second"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+  </span>
+  </a>
+    </div>
+    <a class="service_link" href=" "></a>
+    </div>
+    </li>
+    <li>
+    <div class="inner_list glax_tm_minibox">
+    <div class="icon_wrap">
+    <img class="img" style="width: 250px; height:250px;" src="img/portfolio/16.jpg" alt="">
+    </div>
+    <div class="title_holder">
+    <h6>
+      Doll Girl</h6>
+    </div>
+    <div class="description">
+    <p>Port-0023</p>
+    </div>
+    <div class="glax_tm_button_more_wrap">
+      <a href="#">
+        Get Free Qoute
+          <span class="arrow_wrap">
+          <span class="first"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+          <span class="second"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+          </span>
+          </a>
+    </div>
+    <a class="service_link" href=" "></a>
+    </div>
+    </li>
+    <li>
+    <div class="inner_list glax_tm_minibox">
+    <div class="icon_wrap">
+    <img class="img" style="width: 250px; height:250px;" src="img/portfolio/19.jpg" alt="">
+    </div>
+  
+  
+    <div class="title_holder">
+        <h6>Emergency Medical Technician</h6>
+        </div>
+        <div class="description">
+        <p>Port-0025</p>
+        </div>
+        <div class="glax_tm_button_more_wrap">
+          <a href="#">
+            Get Free Qoute
+              <span class="arrow_wrap">
+              <span class="first"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+              <span class="second"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+              </span>
+              </a>
+      
+        </a>
+        </div>
+        <a class="service_link" href=" "></a>
+        </div>
+        </li>
+        <li>
+        <div class="inner_list glax_tm_minibox">
+        <div class="icon_wrap">
+        <img class="img" style="width: 250px; height:250px;" src="img/portfolio/31.jpg" alt="">
+        </div>
+  
+        
+    <div class="title_holder">
+    <h6>
+      Finish Strong Basket Ball</h6>
+    </div>
+    <div class="description">
+    <p>Port-0011
+    </p>
+    </div>
+    <div class="glax_tm_button_more_wrap">
+      <a href="#">
+        Get Free Qoute
+          <span class="arrow_wrap">
+          <span class="first"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+          <span class="second"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+          </span>
+          </a>
+    </div>
+    <a class="service_link" href=" "></a>
+    </div>
+    </li>
+  
+  
+  
+    </ul>
+
+
+
+
+    
+  <ul class="glax_tm_miniboxes">
+
+    <li>
+    <div class="inner_list glax_tm_minibox">
+    <div class="icon_wrap">
+    <img class="img" style="width: 250px; height:250px;" src="img/portfolio/27.jpg" alt="">
+    </div>
+    <div class="title_holder">
+    <h6>Fish</h6>
+    </div>
+    <div class="description">
+    <p>Port-0032
+        </p>
+    </div>
+    <div class="glax_tm_button_more_wrap">
+     <a href="#">
+Get Free Qoute
+  <span class="arrow_wrap">
+  <span class="first"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+  <span class="second"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+  </span>
+  </a>
+    </div>
+    <a class="service_link" href=" "></a>
+    </div>
+    </li>
+    <li>
+    <div class="inner_list glax_tm_minibox">
+    <div class="icon_wrap">
+    <img class="img" style="width: 250px; height:250px;" src="img/portfolio/35.jpg" alt="">
+    </div>
+    <div class="title_holder">
+    <h6>
+      Fish</h6>
+    </div>
+    <div class="description">
+    <p>Port-0040</p>
+    </div>
+    <div class="glax_tm_button_more_wrap">
+      <a href="#">
+        Get Free Qoute
+          <span class="arrow_wrap">
+          <span class="first"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+          <span class="second"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+          </span>
+          </a>
+    </div>
+    <a class="service_link" href=" "></a>
+    </div>
+    </li>
+    <li>
+    <div class="inner_list glax_tm_minibox">
+    <div class="icon_wrap">
+    <img class="img" style="width: 250px; height:250px;" src="img/portfolio/88070.jpg" alt="">
+    </div>
+  
+  
+    <div class="title_holder">
+        <h6>
+          Fundacion Imbertenos En New York</h6>
+        </div>
+        <div class="description">
+        <p>Port-0041</p>
+        </div>
+        <div class="glax_tm_button_more_wrap">
+          <a href="#">
+            Get Free Qoute
+              <span class="arrow_wrap">
+              <span class="first"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+              <span class="second"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+              </span>
+              </a>
+      
+        </a>
+        </div>
+        <a class="service_link" href=" "></a>
+        </div>
+        </li>
+        <li>
+        <div class="inner_list glax_tm_minibox">
+        <div class="icon_wrap">
+        <img class="img" style="width: 250px; height:250px;" src="img/portfolio/5.jpg" alt="">
+        </div>
+  
+        
+    <div class="title_holder">
+    <h6>
+      Lion</h6>
+    </div>
+    <div class="description">
+    <p>Port-0013
+    </p>
+    </div>
+    <div class="glax_tm_button_more_wrap">
+      <a href="#">
+        Get Free Qoute
+          <span class="arrow_wrap">
+          <span class="first"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+          <span class="second"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+          </span>
+          </a>
+    </div>
+    <a class="service_link" href=" "></a>
+    </div>
+    </li>
+  
+  
+  
+    </ul>
+
+
+    
+  <ul class="glax_tm_miniboxes">
+
+    <li>
+    <div class="inner_list glax_tm_minibox">
+    <div class="icon_wrap">
+    <img class="img" style="width: 250px; height:250px;" src="img/portfolio/17.jpg" alt="">
+    </div>
+    <div class="title_holder">
+    <h6>Lion Face</h6>
+    </div>
+    <div class="description">
+    <p>Port-0024
+        </p>
+    </div>
+    <div class="glax_tm_button_more_wrap">
+     <a href="#">
+Get Free Qoute
+  <span class="arrow_wrap">
+  <span class="first"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+  <span class="second"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+  </span>
+  </a>
+    </div>
+    <a class="service_link" href=" "></a>
+    </div>
+    </li>
+    <li>
+    <div class="inner_list glax_tm_minibox">
+    <div class="icon_wrap">
+    <img class="img" style="width: 250px; height:250px;" src="img/portfolio/24.jpg" alt="">
+    </div>
+    <div class="title_holder">
+    <h6>
+      Lions International</h6>
+    </div>
+    <div class="description">
+    <p>Port-0029</p>
+    </div>
+    <div class="glax_tm_button_more_wrap">
+      <a href="#">
+        Get Free Qoute
+          <span class="arrow_wrap">
+          <span class="first"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+          <span class="second"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+          </span>
+          </a>
+    </div>
+    <a class="service_link" href=" "></a>
+    </div>
+    </li>
+    <li>
+    <div class="inner_list glax_tm_minibox">
+    <div class="icon_wrap">
+    <img class="img" style="width: 250px; height:250px;" src="img/portfolio/10.jpg" alt="">
+    </div>
+  
+  
+    <div class="title_holder">
+        <h6>Lockwood</h6>
+        </div>
+        <div class="description">
+        <p>Port-0018</p>
+        </div>
+        <div class="glax_tm_button_more_wrap">
+          <a href="#">
+            Get Free Qoute
+              <span class="arrow_wrap">
+              <span class="first"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+              <span class="second"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+              </span>
+              </a>
+      
+        </a>
+        </div>
+        <a class="service_link" href=" "></a>
+        </div>
+        </li>
+        <li>
+        <div class="inner_list glax_tm_minibox">
+        <div class="icon_wrap">
+        <img class="img" style="width: 250px; height:250px;" src="img/portfolio/34.jpg" alt="">
+        </div>
+  
+        
+    <div class="title_holder">
+    <h6>
+      Marine Corps League</h6>
+    </div>
+    <div class="description">
+    <p>Port-0039
+    </p>
+    </div>
+    <div class="glax_tm_button_more_wrap">
+      <a href="#">
+        Get Free Qoute
+          <span class="arrow_wrap">
+          <span class="first"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+          <span class="second"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+          </span>
+          </a>
+    </div>
+    <a class="service_link" href=" "></a>
+    </div>
+    </li>
+  
+  
+  
+    </ul>
+
+
+    
+  <ul class="glax_tm_miniboxes">
+
+    <li>
+    <div class="inner_list glax_tm_minibox">
+    <div class="icon_wrap">
+    <img class="img" style="width: 250px; height:250px;" src="img/portfolio/8.jpg" alt="">
+    </div>
+    <div class="title_holder">
+    <h6>
+      Old Soldier
+      </h6>
+    </div>
+    <div class="description">
+    <p>
+      Port-0016        </p>
+    </div>
+    <div class="glax_tm_button_more_wrap">
+     <a href="#">
+Get Free Qoute
+  <span class="arrow_wrap">
+  <span class="first"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+  <span class="second"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+  </span>
+  </a>
+    </div>
+    <a class="service_link" href=" "></a>
+    </div>
+    </li>
+    <li>
+    <div class="inner_list glax_tm_minibox">
+    <div class="icon_wrap">
+    <img class="img" style="width: 250px; height:250px;" src="img/portfolio/61.jpg" alt="">
+    </div>
+    <div class="title_holder">
+    <h6>
+      Out of Many One People</h6>
+    </div>
+    <div class="description">
+    <p>Port-0014</p>
+    </div>
+    <div class="glax_tm_button_more_wrap">
+      <a href="#">
+        Get Free Qoute
+          <span class="arrow_wrap">
+          <span class="first"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+          <span class="second"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+          </span>
+          </a>
+    </div>
+    <a class="service_link" href=" "></a>
+    </div>
+    </li>
+    <li>
+    <div class="inner_list glax_tm_minibox">
+    <div class="icon_wrap">
+    <img class="img" style="width: 250px; height:250px;" src="img/portfolio/26.jpg" alt="">
+    </div>
+  
+  
+    <div class="title_holder">
+        <h6>
+          Security Police</h6>
+        </div>
+        <div class="description">
+        <p>Port-0031 </p>
+        </div>
+        <div class="glax_tm_button_more_wrap">
+          <a href="#">
+            Get Free Qoute
+              <span class="arrow_wrap">
+              <span class="first"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+              <span class="second"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+              </span>
+              </a>
+      
+        </a>
+        </div>
+        <a class="service_link" href=" "></a>
+        </div>
+        </li>
+        <li>
+        <div class="inner_list glax_tm_minibox">
+        <div class="icon_wrap">
+        <img class="img" style="width: 250px; height:250px;" src="img/portfolio/21.jpg" alt="">
+        </div>
+  
+        
+    <div class="title_holder">
+    <h6>
+      Skull on Bike</h6>
+    </div>
+    <div class="description">
+    <p>Port-0010 
+    </p>
+    </div>
+    <div class="glax_tm_button_more_wrap">
+      <a href="#">
+        Get Free Qoute
+          <span class="arrow_wrap">
+          <span class="first"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+          <span class="second"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+          </span>
+          </a>
+    </div>
+    <a class="service_link" href=" "></a>
+    </div>
+    </li>
+  
+  
+  
+    </ul>
+
+
+    
+  <ul class="glax_tm_miniboxes">
+
+    <li>
+    <div class="inner_list glax_tm_minibox">
+    <div class="icon_wrap">
+    <img class="img" style="width: 250px; height:250px;" src="img/portfolio/311.jpg" alt="">
+    </div>
+    <div class="title_holder">
+    <h6>Skull with Guns</h6>
+    </div>
+    <div class="description">
+    <p>Port-0036 
+        </p>
+    </div>
+    <div class="glax_tm_button_more_wrap">
+     <a href="#">
+Get Free Qoute
+  <span class="arrow_wrap">
+  <span class="first"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+  <span class="second"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+  </span>
+  </a>
+    </div>
+    <a class="service_link" href=" "></a>
+    </div>
+    </li>
+    <li>
+    <div class="inner_list glax_tm_minibox">
+    <div class="icon_wrap">
+    <img class="img" style="width: 250px; height:250px;" src="img/portfolio/23.jpg" alt="">
+    </div>
+    <div class="title_holder">
+    <h6>
+      Sonoma County Bowmen</h6>
+    </div>
+    <div class="description">
+    <p>Port-0028</p>
+    </div>
+    <div class="glax_tm_button_more_wrap">
+      <a href="#">
+        Get Free Qoute
+          <span class="arrow_wrap">
+          <span class="first"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+          <span class="second"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+          </span>
+          </a>
+    </div>
+    <a class="service_link" href=" "></a>
+    </div>
+    </li>
+    <li>
+    <div class="inner_list glax_tm_minibox">
+    <div class="icon_wrap">
+    <img class="img" style="width: 250px; height:250px;" src="img/portfolio/25.jpg" alt="">
+    </div>
+  
+  
+    <div class="title_holder">
+        <h6>
+          Special Agent US</h6>
+        </div>
+        <div class="description">
+        <p>Port-0025</p>
+        </div>
+        <div class="glax_tm_button_more_wrap">
+          <a href="#">
+            Get Free Qoute
+              <span class="arrow_wrap">
+              <span class="first"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+              <span class="second"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+              </span>
+              </a>
+      
+        </a>
+        </div>
+        <a class="service_link" href=" "></a>
+        </div>
+        </li>
+        <li>
+        <div class="inner_list glax_tm_minibox">
+        <div class="icon_wrap">
+        <img class="img" style="width: 250px; height:250px;" src="img/portfolio/29.jpg" alt="">
+        </div>
+  
+        
+    <div class="title_holder">
+    <h6>
+      State of Oklahoma</h6>
+    </div>
+    <div class="description">
+    <p>Port-0034
+    </p>
+    </div>
+    <div class="glax_tm_button_more_wrap">
+      <a href="#">
+        Get Free Qoute
+          <span class="arrow_wrap">
+          <span class="first"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+          <span class="second"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+          </span>
+          </a>
+    </div>
+    <a class="service_link" href=" "></a>
+    </div>
+    </li>
+  
+  
+  
+    </ul>
+
+
+    
+  <ul class="glax_tm_miniboxes">
+
+    <li>
+    <div class="inner_list glax_tm_minibox">
+    <div class="icon_wrap">
+    <img class="img" style="width: 250px; height:250px;" src="img/portfolio/22.jpg" alt="">
+    </div>
+    <div class="title_holder">
+    <h6>
+      Sword</h6>
+    </div>
+    <div class="description">
+    <p>Port-0027
+        </p>
+    </div>
+    <div class="glax_tm_button_more_wrap">
+     <a href="#">
+Get Free Qoute
+  <span class="arrow_wrap">
+  <span class="first"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+  <span class="second"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+  </span>
+  </a>
+    </div>
+    <a class="service_link" href=" "></a>
+    </div>
+    </li>
+    <li>
+    <div class="inner_list glax_tm_minibox">
+    <div class="icon_wrap">
+    <img class="img" style="width: 250px; height:250px;" src="img/portfolio/33.jpg" alt="">
+    </div>
+    <div class="title_holder">
+    <h6>
+      Sword</h6>
+    </div>
+    <div class="description">
+    <p>Port-0038</p>
+    </div>
+    <div class="glax_tm_button_more_wrap">
+      <a href="#">
+        Get Free Qoute
+          <span class="arrow_wrap">
+          <span class="first"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+          <span class="second"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+          </span>
+          </a>
+    </div>
+    <a class="service_link" href=" "></a>
+    </div>
+    </li>
+    <li>
+    <div class="inner_list glax_tm_minibox">
+    <div class="icon_wrap">
+    <img class="img" style="width: 250px; height:250px;" src="img/portfolio/7.jpg" alt="">
+    </div>
+  
+  
+    <div class="title_holder">
+        <h6>United States Army</h6>
+        </div>
+        <div class="description">
+        <p>Port-0015</p>
+        </div>
+        <div class="glax_tm_button_more_wrap">
+          <a href="#">
+            Get Free Qoute
+              <span class="arrow_wrap">
+              <span class="first"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+              <span class="second"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+              </span>
+              </a>
+      
+        </a>
+        </div>
+        <a class="service_link" href=" "></a>
+        </div>
+        </li>
+        <li>
+        <div class="inner_list glax_tm_minibox">
+        <div class="icon_wrap">
+        <img class="img" style="width: 250px; height:250px;" src="img/portfolio/32.jpg" alt="">
+        </div>
+  
+        
+    <div class="title_holder">
+    <h6>
+      Ursus</h6>
+    </div>
+    <div class="description">
+    <p>Port-0037 
+    </p>
+    </div>
+    <div class="glax_tm_button_more_wrap">
+      <a href="#">
+        Get Free Qoute
+          <span class="arrow_wrap">
+          <span class="first"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+          <span class="second"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+          </span>
+          </a>
+    </div>
+    <a class="service_link" href=" "></a>
+    </div>
+    </li>
+  
+  
+  
+    </ul>
+
+
+    
+  <ul class="glax_tm_miniboxes">
+
+    <li>
+    <div class="inner_list glax_tm_minibox">
+    <div class="icon_wrap">
+    <img class="img" style="width: 250px; height:250px;" src="img/portfolio/111.jpg" alt="">
+    </div>
+    <div class="title_holder">
+    <h6>US Flag</h6>
+    </div>
+    <div class="description">
+    <p>Port-0019
+        </p>
+    </div>
+    <div class="glax_tm_button_more_wrap">
+     <a href="#">
+Get Free Qoute
+  <span class="arrow_wrap">
+  <span class="first"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+  <span class="second"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+  </span>
+  </a>
+    </div>
+    <a class="service_link" href=" "></a>
+    </div>
+    </li>
+    <li>
+    <div class="inner_list glax_tm_minibox">
+    <div class="icon_wrap">
+    <img class="img" style="width: 250px; height:250px;" src="img/portfolio/13.jpg" alt="">
+    </div>
+    <div class="title_holder">
+    <h6>
+      US Flag</h6>
+    </div>
+    <div class="description">
+    <p>Port-0020</p>
+    </div>
+    <div class="glax_tm_button_more_wrap">
+      <a href="#">
+        Get Free Qoute
+          <span class="arrow_wrap">
+          <span class="first"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+          <span class="second"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+          </span>
+          </a>
+    </div>
+    <a class="service_link" href=" "></a>
+    </div>
+    </li>
+    <li>
+    <div class="inner_list glax_tm_minibox">
+    <div class="icon_wrap">
+    <img class="img" style="width: 250px; height:250px;" src="img/portfolio/41.jpg" alt="">
+    </div>
+  
+  
+    <div class="title_holder">
+        <h6>
+          Women Mirror</h6>
+        </div>
+        <div class="description">
+        <p>Port-0012</p>
+        </div>
+        <div class="glax_tm_button_more_wrap">
+          <a href="#">
+            Get Free Qoute
+              <span class="arrow_wrap">
+              <span class="first"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+              <span class="second"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+              </span>
+              </a>
+      
+        </a>
+        </div>
+        <a class="service_link" href=" "></a>
+        </div>
+        </li>
+        <li>
+        <div class="inner_list glax_tm_minibox">
+        <div class="icon_wrap">
+        <img class="img" style="width: 250px; height:250px;" src="img/portfolio/30.jpg" alt="">
+        </div>
+  
+        
+    <div class="title_holder">
+    <h6>
+      University of Maine Police</h6>
+    </div>
+    <div class="description">
+    <p>Port-0035
+    </p>
+    </div>
+    <div class="glax_tm_button_more_wrap">
+      <a href="#">
+        Get Free Qoute
+          <span class="arrow_wrap">
+          <span class="first"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+          <span class="second"><img class="svg" src="img/svg/arrow-right.svg" alt=""></span>
+          </span>
+          </a>
+    </div>
+    <a class="service_link" href=" "></a>
+    </div>
+    </li>
+  
+  
+  
+    </ul>
+  </div>
+  </div>
+  </div>
+
+
+</ul>
+</div>
+</div>
+</div>
+
+
+
+<footer class="glax_tm_footer_wrap">
+  <div class="glax_tm_universal_parallax_wrap">
+  <div class="main_bg">
+
+  <div class="overlay_image footer jarallax" data-speed="0"></div>
+
+  <div class="overlay_color footer"></div>
+  </div>
+  <div class="main_content footer">
+ 
+  <div class="glax_tm_footer_wrap">
+  <div class="container">
+  <div class="glax_tm_list_wrap footer" data-column="3" data-space="40">
+  <ul class="glax_list">
+
+      
+  <li>
+
+      
+  <div class="inner">
+  <div class="footer_section_title">
+  <h3>About Company</h3>
+  </div>
+  <div class="definition">
+  <p>We are an award winning construction company focused on user-driven outcomes. We strive to create meaningful connections for users through considered.</p>
+  </div>
+  </div>
+  </li>
+  <li>
+  <div class="inner">
+  <div class="footer_section_title">
+  <h3>Address</h3>
+  </div>
+  <div class="inner_list">
+  <ul>
+      <div class="definition">
+          <p>UK Office: 246-250 Romford Road, London E7 9HZ, UNITED KINGDOM</p>
+          </div>
+  </ul>
+  </div>
+  </div>
+
+
+  </li>
+
+
+  
+<li>
+<div class="inner">
+<div class="footer_section_title">
+<h3>Helpful Links</h3>
+</div>
+<div class="helpful_links">
+<div class="inner_list">
+
+
+  <ul>
+
+           <li><a href="index.html">Home</a></li>
+           
+           <li><a href="Ditigizing.html">Digitizing Portfolio</a></li>
+       
+           <li><a href="Vector.html">Vector Portfolio</a></li>
+          
+           <li><a href="Patches.html">Patches Portfolio</a></li>
+       
+           <li><a href="service-embroidery.html">Embroidery Services</a></li>
+           
+           <li><a href="service-vector.html">Vector Services</a></li>
+       
+           <li><a href="service-patches.html">Patches Services </a></li>
+       
+           <li><a href="StockLetter.html">Stock Letters Services </a></li>
+       
+           <li><a href="fileformats.html">File Formats</a></li>
+        
+           <li><a href="discounts-page.html">Discount Offers</a></li>
+           
+           <li><a href="contact.html">Contact Us</a></li>
+       
+           <li><a href="about.html">About Us</a></li>
+
+
+
+</ul>
+
+</div>
+</div>
+</div>
+</li>
+<!--links-->
+
+  </ul>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="bottom_wrap">
+  <div class="container">
+
+  <div class="copyright">
+      <p>&copy; 2022 <a class="constructify" href="https://zazdigitizing.com/">ZAZ Digitizing</a>. All rights reserved. Designed and Developed By <a class="marketify" href="https://www.LiveBits.pk">LiveBits.pk</a></p>
+      <a class="glax_tm_totop" href="#">
+  <span class="shape"></span>
+  <span class="name">To Top</span>
+  </a>
+  </div>
+  </div>
+  </div>
+  </footer>
+  
+  
+  </div>
+  </div>
+
+    
+
+<script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/jquery.js"></script>
+<script src="js/plugins.js"></script>
+<!--[if lt IE 10]> <script type="text/javascript" src="js/ie8.js"></script> <![endif]-->
+<script src="js/init.js"></script>
+
+</body>
+</html>
